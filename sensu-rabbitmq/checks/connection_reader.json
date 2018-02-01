@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "check-conn-reader": {
+     "command": "check-connection-reader.rb",
+      "subscribers": [ "dev","ubuntu-hosts" ],
+	"interval": 60
+    }
+  }
+}

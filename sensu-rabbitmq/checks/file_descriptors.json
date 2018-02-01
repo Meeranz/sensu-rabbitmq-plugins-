@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "check-node-socket": {
+     "command": "check-filedescriptors.rb",
+      "subscribers": [ "dev","ubuntu-hosts" ],
+	"interval": 60
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "check-node-socket": {
+     "command": "check-socket-usage.rb",
+      "subscribers": [ "dev","ubuntu-hosts" ],
+	"interval": 60
+    }
+  }
+}

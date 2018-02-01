@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "conn_writer_check": {
+     "command": "check-connection-writer.rb",
+      "subscribers": [ "dev","ubuntu-hosts" ],
+	"interval": 60
+    }
+  }
+}

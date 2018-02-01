@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "check_rabbitmq": {
+     "command": "check-rabbitmq.rb",
+      "subscribers": [ "dev","ubuntu-hosts" ],
+	"interval": 60
+    }
+  }
+}

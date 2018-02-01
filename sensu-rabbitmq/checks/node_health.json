@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "node_health_check": {
+     "command": "check-node-health.rb",
+      "subscribers": [ "dev","ubuntu-hosts" ],
+	"interval": 60
+    }
+  }
+}

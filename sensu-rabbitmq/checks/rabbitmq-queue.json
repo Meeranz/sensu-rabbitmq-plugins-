@@ -1,0 +1,9 @@
+{
+  "checks": {
+    "check-rabbit-queue": {
+     "command": "check-rabbit-queue.rb",
+      "subscribers": [ "dev","ubuntu-hosts" ],
+	"interval": 60
+    }
+  }
+}
